@@ -1,6 +1,47 @@
 ## CONNECTEL CUSTOMER CHURN ANALYSIS
+Connectel is a leading global telecommunications company providing reliable voice, data, and internet services. It offers mobile networks, broadband, and enterprise solutions to individuals and businesses.
 
 ## BUSINESS PROBLEM
-Connectel a leading telecommunications company providing a wide range of services including phone, internet, and TV streaming to a diverse customer base wants to;
-1. Gain insights into the factors that contribute to customer churn and develop strategies
-2. To improve customer retention.
+Connectel needs to gain insights as to the factors that contribute to customer churn and develop strategies and also improve customer retention.
+
+# PROCESSES
+- Library Importation
+- Load Dataset
+- Data Exploration /Assessment
+- Data Pre-processing
+- Exploratory Data Analysis(EDA)
+- Feature Engineering
+- Machine Learning
+# LIBRARY IMPORTATION
+Python libraries for data analysis , visualizations, data preprocessing , machine learning classifier , metric evaluation was imported
+
+# DATA IMPORTATION / EXPLORATION
+- The CSV data set was uploaded using pandas
+- Data was explored and assesed for data type features, duplicates and missing values
+  
+# DATA PRE-PROCESSING
+- Missing values in the dataset was filled with the median values.
+- Some numerical values were grouped for easy and better exploration.
+  
+# EXPLORATORY DATA ANALYSIS(EDA)
+Univariate ,Bivariate and Multivariate EDA was carried out in order to identify patterns ,relationship in respect to customer churn.
+# FEATURE ENGINEERING
+- Drop off columns that are not relevant to the analysis
+- Encode categorical variable using one hot encoder
+- Segment data into predictor and target variable
+- Scaled numerical column using standard scaler
+- Split dataset to training and testing set
+  
+# MACHINE LEARNING
+Total of eight (8) machine learning models was applied to the dataset to help predict customer churn , these models include;
+- XGB Classifier             
+- Random Forest Classifier
+- KNeighbors Classifier
+- SGD Classifier
+- SVC
+- Gaussian NB
+- Decision Tree Classifier
+- Logistic Regression
+# Model evaluation was carried out using the following metrics;
+- Accuracy score, precission, recall, f1_score, AUC-ROC score and confussion matrix.
+- more priority was given to recall and AUC score in choosing the best fit 
